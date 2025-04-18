@@ -67,3 +67,21 @@ vim.opt.scrolloff = 10
 vim.opt.confirm = true
 
 -- vim: ts=2 sts=2 sw=2 et
+
+-- Hide ~ symbol for blank buffer
+vim.opt.fillchars = { eob = ' ' }
+
+-- Enable 24-bit RGB colors
+vim.opt.termguicolors = true
+
+-- Persistently highlight all occurrences of the last search pattern
+vim.opt.hlsearch = true
+
+-- Show search matches incrementally as you type the search pattern
+vim.opt.incsearch = true
+
+-- Disable cursorline highlight
+vim.o.cursorline = false
+
+-- Highlight cursor line number
+-- vim.o.cursorlineopt = 'number'

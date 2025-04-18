@@ -15,5 +15,8 @@ return {
     }
 
     vim.cmd.colorscheme 'gruvbox'
+
+    -- Set SignColumn color to bg color
+    vim.cmd 'hi! link SignColumn Normal'
   end,
 }
