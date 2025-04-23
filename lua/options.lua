@@ -68,6 +68,7 @@ vim.opt.confirm = true
 
 -- vim: ts=2 sts=2 sw=2 et
 
+-- PERSONAL
 -- Hide ~ symbol for blank buffer
 vim.opt.fillchars = { eob = ' ' }
 
