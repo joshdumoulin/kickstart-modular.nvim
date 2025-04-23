@@ -35,8 +35,6 @@ require('lazy').setup({
 
   require 'kickstart/plugins/blink-cmp',
 
-  require 'custom/plugins/gruvbox',
-
   -- require 'kickstart/plugins/tokyonight',
 
   require 'kickstart/plugins/todo-comments',
@@ -44,6 +42,15 @@ require('lazy').setup({
   require 'kickstart/plugins/mini',
 
   require 'kickstart/plugins/treesitter',
+
+  -- PERSONAL
+  require 'custom/plugins/gruvbox',
+  require 'custom/plugins/yazi',
+  require 'custom.plugins.flash',
+  require 'custom/plugins/copilot',
+  require 'custom.plugins.copilot-chat',
+
+  -- require 'custom/plugins/neocodeium',
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
   -- init.lua. If you want these files, they are in the repository, so you can just download them and
