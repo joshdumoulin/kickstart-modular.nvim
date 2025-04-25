@@ -48,8 +48,10 @@ require('lazy').setup({
   require 'custom/plugins/yazi',
   require 'custom.plugins.flash',
   require 'custom/plugins/copilot',
-  require 'custom.plugins.copilot-chat',
+  require 'custom.plugins.codecompanion',
 
+  -- require 'custom.plugins.avante',
+  -- require 'custom.plugins.copilot-chat',
   -- require 'custom/plugins/neocodeium',
 
   -- The following comments only work if you have downloaded the kickstart repo, not just copy pasted the
