@@ -240,6 +240,8 @@ return {
         -- ruff = {},
         -- black = {},
 
+        clangd = {},
+
         basedpyright = {
           settings = {
             basedpyright = {

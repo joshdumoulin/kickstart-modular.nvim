@@ -66,7 +66,7 @@ vim.opt.scrolloff = 10
 -- See `:help 'confirm'`
 vim.opt.confirm = true
 
--- vim: ts=2 sts=2 sw=2 et
+-- vim: ts=4 sts=4 sw=4 et:
 
 -- PERSONAL
 -- Hide ~ symbol for blank buffer
@@ -83,6 +83,12 @@ vim.opt.incsearch = true
 
 -- Disable cursorline highlight
 vim.o.cursorline = false
+
+-- Set tabstop to 4 spaces
+vim.tabstop = 4
+
+-- Set shiftwidth to 4 spaces
+vim.shiftwidth = 4
 
 -- Highlight cursor line number
 -- vim.o.cursorlineopt = 'number'
