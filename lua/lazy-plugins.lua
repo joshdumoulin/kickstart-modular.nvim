@@ -49,6 +49,7 @@ require('lazy').setup({
   require 'custom.plugins.flash',
   require 'custom/plugins/copilot',
   require 'custom.plugins.codecompanion',
+  require 'kickstart.plugins.indent_line',
   -- require 'custom.plugins.snacks',
 
   -- require 'custom.plugins.avante',

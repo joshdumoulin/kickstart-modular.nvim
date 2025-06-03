@@ -1,4 +1,3 @@
--- [[ Setting options ]]
 -- See `:help vim.o`
 -- NOTE: You can change these options as you wish!
 --  For more options, you can see `:help option-list`
@@ -56,7 +55,7 @@ vim.o.splitbelow = true
 --   See `:help lua-options`
 --   and `:help lua-options-guide`
 vim.o.list = true
-vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+-- vim.o.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 -- Preview substitutions live, as you type!
 vim.o.inccommand = 'split'
@@ -72,29 +71,23 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
--- vim: ts=4 sts=4 sw=4 et:
+-- vim: ts=2 sts=2 sw=2 et:
 
 -- PERSONAL
 -- Hide ~ symbol for blank buffer
 vim.opt.fillchars = { eob = ' ' }
 
 -- Enable 24-bit RGB colors
-vim.opt.termguicolors = true
+vim.o.termguicolors = true
 
 -- Persistently highlight all occurrences of the last search pattern
-vim.opt.hlsearch = true
+vim.o.hlsearch = true
 
 -- Show search matches incrementally as you type the search pattern
-vim.opt.incsearch = true
+vim.o.incsearch = true
 
 -- Disable cursorline highlight
 vim.o.cursorline = false
-
--- Set tabstop to 4 spaces
-vim.tabstop = 4
-
--- Set shiftwidth to 4 spaces
-vim.shiftwidth = 4
 
 -- Highlight cursor line number
 vim.o.cursorlineopt = 'number'
