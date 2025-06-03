@@ -54,8 +54,8 @@ vim.o.splitbelow = true
 --  It is very similar to `vim.o` but offers an interface for conveniently interacting with tables.
 --   See `:help lua-options`
 --   and `:help lua-options-guide`
-vim.o.list = true
--- vim.o.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
+vim.o.list = false
+-- vim.opt.listchars = { tab = '» ', trail = '·', nbsp = '␣' }
 
 -- Preview substitutions live, as you type!
 vim.o.inccommand = 'split'
@@ -91,3 +91,5 @@ vim.o.cursorline = false
 
 -- Highlight cursor line number
 vim.o.cursorlineopt = 'number'
+
+vim.cmd [[autocmd FileType * set formatoptions-=ro]]
