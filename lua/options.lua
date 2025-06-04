@@ -93,3 +93,6 @@ vim.o.cursorline = false
 vim.o.cursorlineopt = 'number'
 
 vim.cmd [[autocmd FileType * set formatoptions-=ro]]
+
+vim.o.shiftwidth = 2
+vim.o.tabstop = 2

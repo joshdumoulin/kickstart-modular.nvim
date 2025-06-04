@@ -49,7 +49,6 @@ require('lazy').setup({
   require 'custom.plugins.flash',
   require 'custom/plugins/copilot',
   require 'custom.plugins.codecompanion',
-  require 'kickstart.plugins.indent_line',
   -- require 'custom.plugins.snacks',
 
   -- require 'custom.plugins.avante',
@@ -66,9 +65,9 @@ require('lazy').setup({
   --  Uncomment any of the lines below to enable them (you will need to restart nvim).
   --
   -- require 'kickstart.plugins.debug',
-  -- require 'kickstart.plugins.indent_line',
+  require 'kickstart.plugins.indent_line',
   -- require 'kickstart.plugins.lint',
-  -- require 'kickstart.plugins.autopairs',
+  require 'kickstart.plugins.autopairs',
   -- require 'kickstart.plugins.neo-tree',
 
   -- NOTE: The import below can automatically add your own plugins, configuration, etc from `lua/custom/plugins/*.lua`
