@@ -244,15 +244,30 @@ return {
 
         clangd = {},
 
-        basedpyright = {
-          settings = {
-            basedpyright = {
-              analysis = {
-                typeCheckingMode = 'recommended',
-              },
-            },
-          },
-        },
+        -- basedpyright = {
+        --   settings = {
+        --     basedpyright = {
+        --       analysis = {
+        --         typeCheckingMode = 'recommended',
+        --       },
+        --     },
+        --   },
+        -- },
+
+        -- basedpyright = {
+        --   settings = {
+        --     pyright = {
+        --       -- Using Ruff's import organizer
+        --       disableOrganizeImports = true,
+        --     },
+        --     basedpyright = {
+        --       analysis = {
+        --         typeCheckingMode = 'off',
+        --         diagnosticMode = 'off',
+        --       },
+        --     },
+        --   },
+        -- },
       }
 
       -- Ensure the servers and tools above are installed

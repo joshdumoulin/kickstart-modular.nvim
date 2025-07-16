@@ -65,3 +65,11 @@ vim.keymap.set('n', '<C-u>', '<C-u>zz')
 -- Keep cusor in the middle when moving through '/' results
 vim.keymap.set('n', 'n', 'nzzzv')
 vim.keymap.set('n', 'N', 'Nzzzv')
+
+-- diagnostics
+vim.keymap.set('n', '<leader>dd', function()
+  vim.diagnostic.open_float()
+end, { desc = 'Open floating diagnostic message' })
+
+vim.keymap.set('n', 'dn', vim.diagnostic.goto_next, { desc = 'Next diagnostic' })
+vim.keymap.set('n', 'dp', vim.diagnostic.goto_prev, { desc = 'Prev diagnostic' })
