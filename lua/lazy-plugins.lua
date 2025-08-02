@@ -35,7 +35,7 @@ require('lazy').setup({
 
   require 'kickstart.plugins.blink-cmp',
 
-  require 'kickstart.plugins.tokyonight',
+  -- require 'kickstart.plugins.tokyonight',
 
   require 'kickstart.plugins.todo-comments',
 
@@ -44,12 +44,12 @@ require('lazy').setup({
   require 'kickstart.plugins.treesitter',
 
   -- PERSONAL
+  require 'custom/plugins/rose-pine',
   require 'custom/plugins/gruvbox',
   require 'custom/plugins/yazi',
   require 'custom.plugins.flash',
   require 'custom/plugins/copilot',
   require 'custom.plugins.codecompanion',
-  -- require 'custom.plugins.snacks',
 
   -- require 'custom.plugins.avante',
   -- require 'custom.plugins.copilot-chat',
