@@ -71,7 +71,7 @@ vim.o.scrolloff = 10
 -- See `:help 'confirm'`
 vim.o.confirm = true
 
--- vim: ts=2 sts=2 sw=2 et:
+-- vim: ts=4 sts=4 sw=4 et:
 
 -- PERSONAL
 -- Hide ~ symbol for blank buffer
@@ -94,8 +94,13 @@ vim.o.cursorlineopt = 'number'
 
 vim.cmd [[autocmd FileType * set formatoptions-=ro]]
 
-vim.o.shiftwidth = 2
-vim.o.tabstop = 2
+-- vim.o.shiftwidth = 4
+-- vim.o.tabstop = 4
+
+vim.o.tabstop = 4 -- A TAB character looks like 4 spaces
+vim.o.expandtab = true -- Pressing the TAB key will insert spaces instead of a TAB character
+vim.o.softtabstop = 4 -- Number of spaces inserted instead of a TAB character
+vim.o.shiftwidth = 4 -- Number of spaces inserted when indenting
 
 vim.api.nvim_create_autocmd('BufReadPost', {
   desc = 'Open file at the last position it was edited earlier',
